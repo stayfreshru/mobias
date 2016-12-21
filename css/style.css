@@ -1,0 +1,106 @@
+  a {
+margin: 20px;
+padding: 20px;
+border: none;
+background: none;
+color: white;
+text-decoration: none;
+font-size: 30px;
+cursor: pointer
+    }
+
+  img { border: none; }
+  a img { border: none; }
+
+  body {
+background: url(../images/bg.png) no-repeat center top;
+/* width: 800px; */
+/* height: 650px; */
+overflow: hidden;
+overflow-x: hidden;
+margin: 0 Auto;
+       }
+
+#container {
+/*background: url(../images/start_bg.jpg);*/
+width: 800px;
+height: 650px;
+overflow: hidden;
+overflow-x: hidden;
+margin: 0 Auto;
+text-align: center;
+}
+#result_friends {
+margin: 0 auto;
+overflow: hidden;
+width: 900px;
+}
+#santas{
+  background: url(../images/santas.png) no-repeat center top;
+  height: 550px;
+}
+#santasupload{
+  background: url(../images/santasuploas.png) no-repeat center top;
+  height: 550px;
+}
+#photo1{
+position: relative;
+left: -206px;
+top: 105px
+}
+#photo2{
+position: relative;
+left: -90px;
+top: 70px
+}
+#photo3{
+position: relative;
+left: -3px;
+top: 63px
+}
+
+#photo4{
+position: relative;
+left: 88px;
+top: 69px
+}
+#photo5{
+position: relative;
+left: 194px;
+top: 70px
+}
+.uploas{
+position: relative;
+top: 150px
+}
+.inputfile {
+  width: 0.1px;
+  height: 0.1px;
+  opacity: 0;
+  overflow: hidden;
+  position: absolute;
+  z-index: -1;
+}
+#fb-auth{
+background: url(../images/button.png) no-repeat center top;
+width: 300px;
+height: 90px;
+border: none;
+margin-top: 4%;
+}
+#result_friends h2 {
+text-align: center;
+}
+#result_friends div {
+border: 1px solid #888;
+box-shadow: 3px 3px 0 #000;
+float: left;
+margin-bottom: 10px;
+margin-right: 10px;
+padding: 5px;
+width: 275px;
+}
+#result_friends img {
+float: left;
+margin-right: 10px;
+}
